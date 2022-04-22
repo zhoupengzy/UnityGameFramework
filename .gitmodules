@@ -1,0 +1,3 @@
+[submodule "Scripts/GameFramework"]
+	path = Scripts/GameFramework
+	url = https://github.com/zhoupengzy/GameFramework.git
