@@ -1,6 +1,3 @@
-[submodule "Scripts/GameFramework"]
-	path = Scripts/GameFramework
-	url = https://github.com/zhoupengzy/GameFramework.git
 [submodule "Scripts/GameCore"]
 	path = Scripts/GameCore
 	url = https://github.com/zhoupengzy/GameFramework.git
