@@ -9,7 +9,7 @@ using System.Reflection;
 
 public static class CustomSettings
 {
-    public static string FrameworkPath = Application.dataPath + "/UnityGameFramework/Scripts/GameFramework/GameFramework";
+    public static string FrameworkPath = Application.dataPath + "/GameFramework/Scripts/GameCore/GameFramework";
     public static string saveDir = FrameworkPath + "/Lua/ToLua/Source/Generate/";    
     public static string toluaBaseType = FrameworkPath + "/Lua/ToLua/BaseType/";
     public static string baseLuaDir = FrameworkPath + "/Lua/Tolua/Lua/";

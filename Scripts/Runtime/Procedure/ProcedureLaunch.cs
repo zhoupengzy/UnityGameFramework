@@ -7,6 +7,9 @@ namespace UnityGameFramework.Runtime
 {
     public class ProcedureLaunch : ProcedureBase
     {
+        private BaseComponent m_BaseComponent;
+
+
         // 游戏初始化时执行。
         protected override void OnInit(ProcedureOwner procedureOwner)
         {
@@ -35,6 +38,8 @@ namespace UnityGameFramework.Runtime
             // 打印严重错误级别日志，建议在发生严重错误，可能导致游戏崩溃或异常时使用，此时应尝试重启进程或重建游戏框架
             Log.Fatal(welcomeMessage);
 
+            m_BaseComponent = GameEntry.GetComponent<BaseComponent>();
+
             
         }
 
@@ -42,6 +47,11 @@ namespace UnityGameFramework.Runtime
         protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
         {
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
+            
+            if(m_BaseComponent.EditorResourceMode)
+            {
+                ChangeState<ProcedureLua>(procedureOwner);
+            }
         }
 
         // 每次离开这个流程时执行。

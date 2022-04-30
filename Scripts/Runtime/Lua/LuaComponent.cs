@@ -99,8 +99,8 @@ namespace UnityGameFramework.Runtime
 //             //如果想在编辑器中以加载AB的方式实时调试LUA代码就打开这个注释
 //             // luaManager.SetBeZip(false);
 // 
-//             isInit = true;
-//             luaManager.Start(gameObject, this);
+             isInit = true;
+             luaManager.Start(gameObject, this);
 // #if UNITY_EDITOR
 //             if (m_BaseComponent.EditorResourceMode)
 //             {
@@ -108,7 +108,7 @@ namespace UnityGameFramework.Runtime
 //                 LuaFileWatcher.CreateLuaFileWatcher(luaManager.GetLuaState(), Application.dataPath + "/ProjectResources/Lua");
 //             }
 // #endif 
-            luaManager.DoFile("Main.lua");
+            this.DoFile("Main.lua");
 
         }
 
@@ -188,7 +188,7 @@ namespace UnityGameFramework.Runtime
 
         public byte[] LoadLuaBytes(string file)
         {
-            //             TextAsset result = m_ResourceManager.LoadAsset(file) as TextAsset;
+            //            TextAsset result = m_ResourceManager.LoadAsset(file) as TextAsset;
             //             return result == null ? null : result.bytes;
             return null;
         }
