@@ -74,27 +74,21 @@ namespace UnityGameFramework.Runtime
 
             luaManager.Initialize();
 
-//             if (m_BaseComponent.EditorResourceMode)
-//             {
+            if (m_BaseComponent.EditorResourceMode)
+            {
 //                 luaManager.SetResourceManager(m_BaseComponent.EditorResourceHelper);
 //                 luaManager.SetBeZip(false);
-// 
-//                 luaManager.AddSearchPath(Application.dataPath + "Framework/ToLua");
-// 
-//                 string scriptPath = Application.dataPath + "ProjectResources/Lua";
-//                 Debug.LogWarning("scriptPath = " + scriptPath);
-//                 luaManager.AddSearchPath(scriptPath);
-// 
-// 
-//             }
-//             else
-//             {
+                luaManager.AddSearchPath(LuaConst.luaDir);
+                luaManager.AddSearchPath(LuaConst.toluaDir);
+             }
+             else
+             {
 //                 bool IsDebug = m_BaseComponent.Channel.Contains("_debug");
 //                 luaManager.SetDebug(IsDebug);
 //                 if (IsDebug) luaManager.AddSearchPath(Application.dataPath + "/Lua");
 //                 luaManager.SetResourceManager(GameFrameworkEntry.GetModule<IResourceManager>());
 //                 luaManager.SetBeZip(true);
-//             }
+             }
 // 
 //             //如果想在编辑器中以加载AB的方式实时调试LUA代码就打开这个注释
 //             // luaManager.SetBeZip(false);

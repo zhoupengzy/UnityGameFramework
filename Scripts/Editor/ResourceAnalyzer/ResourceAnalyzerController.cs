@@ -57,7 +57,7 @@ namespace UnityGameFramework.Editor.ResourceTools
             };
 
             m_DependencyDatas = new Dictionary<string, DependencyData>(StringComparer.Ordinal);
-            m_ScatteredAssets = new Dictionary<string, List<Asset>>(StringComparer.Ordinal);
+            m_ScatteredAssets = new Dictionary<string, List<Asset>>(StringComparer.Ordinal);  
             m_AnalyzedStamps = new HashSet<Stamp>();
             m_CircularDependencyDatas = new List<string[]>();
         }
