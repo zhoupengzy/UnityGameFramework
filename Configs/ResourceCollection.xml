@@ -5,57 +5,15 @@
       <Resource Name="ui_login" LoadType="1" Packed="True" />
     </Resources>
     <Assets>
-      <Asset Guid="089de1b1b1cac7d4e8b7f2f1b72661f7" ResourceName="ui_login" />
-      <Asset Guid="11e4b5c5f6cee6c4a871d06ed2c420e5" ResourceName="ui_login" />
-      <Asset Guid="1289b5cc3b150b4449d63aeba82de41f" ResourceName="ui_login" />
-      <Asset Guid="1aac5ec2e9cd8794f8b6a825cdbcc802" ResourceName="ui_login" />
-      <Asset Guid="1cb00a213e897a542a558ee26e013da7" ResourceName="ui_login" />
-      <Asset Guid="1fcd91ef9ad9e3147abfe88f31cdfb24" ResourceName="ui_login" />
-      <Asset Guid="25cbaf3c82da2fd4cb19bbfc738c6572" ResourceName="ui_login" />
-      <Asset Guid="2ea373b4ed22fb442acc2f023aa060d3" ResourceName="ui_login" />
-      <Asset Guid="2ed8517bb73592a428dc658bd0ba1d17" ResourceName="ui_login" />
-      <Asset Guid="2f9f6082318007e43ad3e1420b845121" ResourceName="ui_login" />
-      <Asset Guid="4225ed45abede384dafe3faceb049501" ResourceName="ui_login" />
-      <Asset Guid="437f698c64248b640972fafe5dd8cb13" ResourceName="ui_login" />
-      <Asset Guid="4722d1bfd8ec08048981bef2e26d8f51" ResourceName="ui_login" />
       <Asset Guid="4928f8a646fcad445bd8f652076dc7a9" ResourceName="ui_login" />
-      <Asset Guid="524b2222d08786149bd137bb70649884" ResourceName="ui_login" />
       <Asset Guid="555136571dadcef44b0ee19c70054991" ResourceName="ui_login" />
       <Asset Guid="5c422d3deb977514a80f38bb36109c70" ResourceName="ui_login" />
       <Asset Guid="6f6e2e38a9e49bc4da0a2eb10a586562" ResourceName="ui_login" />
-      <Asset Guid="783d10c735cf1f64a907f1440724d841" ResourceName="ui_login" />
       <Asset Guid="7b027c0bc1558c24b8443264ab0b3944" ResourceName="ui_login" />
-      <Asset Guid="7b6febad0bf86d14fa5fa823a51c5ead" ResourceName="ui_login" />
-      <Asset Guid="7ccc6e55d17b4324a81ea535d8fb5042" ResourceName="ui_login" />
       <Asset Guid="7ee7d91581b93c24d9fcea4e8405cd6a" ResourceName="ui_login" />
-      <Asset Guid="85d3f940fd65c2f42ac787dc3d41bb03" ResourceName="ui_login" />
-      <Asset Guid="8948f8c169f4a5443bff552be0c98c6c" ResourceName="ui_login" />
       <Asset Guid="8c2334bb961754340a97e98a415ac1d6" ResourceName="ui_login" />
-      <Asset Guid="990d32dcf5b7d3d459140b2b58594597" ResourceName="ui_login" />
-      <Asset Guid="9927e7950dd2c3d4e8089f67a3d978a6" ResourceName="ui_login" />
-      <Asset Guid="9c577fecb23490245b3e09c5c456fc30" ResourceName="ui_login" />
-      <Asset Guid="a11ee1a0e58f1c2419ed47195cd7590c" ResourceName="ui_login" />
-      <Asset Guid="a2e313187bb40b14c858082f77cc996d" ResourceName="ui_login" />
-      <Asset Guid="ab8403244d8de5c408e545ebe0e7894c" ResourceName="ui_login" />
       <Asset Guid="acb05b106b3d6844c919109b96132f52" ResourceName="ui_login" />
-      <Asset Guid="afc2f065de0ba6e4689b2077970ae3dc" ResourceName="ui_login" />
-      <Asset Guid="b903f4fc607157d46a4cea3224606784" ResourceName="ui_login" />
-      <Asset Guid="c5608af9655690846850828f72dbc1bb" ResourceName="ui_login" />
       <Asset Guid="c5799854b886ab140b9beff751335be4" ResourceName="ui_login" />
-      <Asset Guid="c654294fe0e0ece4c97bed942879f7c1" ResourceName="ui_login" />
-      <Asset Guid="cd39bdf33526c804485531acf12cd4c7" ResourceName="ui_login" />
-      <Asset Guid="ced48f6062867f5408c40a493f51269c" ResourceName="ui_login" />
-      <Asset Guid="d2fab7dcde6104f41985a1e6934738ce" ResourceName="ui_login" />
-      <Asset Guid="d7e70ac9ce6a92842ae2540fa3d4e3cf" ResourceName="ui_login" />
-      <Asset Guid="d946910dd8555e04b92497563d2bcb4a" ResourceName="ui_login" />
-      <Asset Guid="dd540bb62935547438c21a42ed0f16ae" ResourceName="ui_login" />
-      <Asset Guid="e9f1f5fb2bc14324ebbc33213f1e02a0" ResourceName="ui_login" />
-      <Asset Guid="f004b57a4eeb0544e93c7c714df3f719" ResourceName="ui_login" />
-      <Asset Guid="f41be3b77245d074d9e53af1b18c0a89" ResourceName="ui_login" />
-      <Asset Guid="f71f2beb89fb7bf45a2003fd0b9e5155" ResourceName="ui_login" />
-      <Asset Guid="fd00d84862e961741bb689f0037dc012" ResourceName="ui_login" />
-      <Asset Guid="fd12b5ddbee219f4ba818bdd1b3c308d" ResourceName="ui_login" />
-      <Asset Guid="fe15dc4af0c368b43b6f14039e97c659" ResourceName="ui_login" />
     </Assets>
   </ResourceCollection>
 </UnityGameFramework>

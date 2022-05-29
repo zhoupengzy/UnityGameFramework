@@ -10,32 +10,32 @@ namespace UnityGameFramework.Runtime
         private BaseComponent m_BaseComponent;
 
 
-        // ÓÎÏ·³õÊ¼»¯Ê±Ö´ĞĞ¡£
+        // æ¸¸æˆåˆå§‹åŒ–æ—¶æ‰§è¡Œã€‚
         protected override void OnInit(ProcedureOwner procedureOwner)
         {
             base.OnInit(procedureOwner);
         }
 
-        // Ã¿´Î½øÈëÕâ¸öÁ÷³ÌÊ±Ö´ĞĞ¡£
+        // æ¯æ¬¡è¿›å…¥è¿™ä¸ªæµç¨‹æ—¶æ‰§è¡Œã€‚
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
             base.OnEnter(procedureOwner);
 
             string welcomeMessage = Utility.Text.Format("Hello Game Framework {0}.", Version.GameFrameworkVersion);
 
-            // ´òÓ¡µ÷ÊÔ¼¶±ğÈÕÖ¾£¬ÓÃÓÚ¼ÇÂ¼µ÷ÊÔÀàÈÕÖ¾ĞÅÏ¢
+            // æ‰“å°è°ƒè¯•çº§åˆ«æ—¥å¿—ï¼Œç”¨äºè®°å½•è°ƒè¯•ç±»æ—¥å¿—ä¿¡æ¯
             Log.Debug(welcomeMessage);
 
-            // ´òÓ¡ĞÅÏ¢¼¶±ğÈÕÖ¾£¬ÓÃÓÚ¼ÇÂ¼³ÌĞòÕı³£ÔËĞĞÈÕÖ¾ĞÅÏ¢
+            // æ‰“å°ä¿¡æ¯çº§åˆ«æ—¥å¿—ï¼Œç”¨äºè®°å½•ç¨‹åºæ­£å¸¸è¿è¡Œæ—¥å¿—ä¿¡æ¯
             Log.Info(welcomeMessage);
 
-            // ´òÓ¡¾¯¸æ¼¶±ğÈÕÖ¾£¬½¨ÒéÔÚ·¢Éú¾Ö²¿¹¦ÄÜÂß¼­´íÎó£¬µ«ÉĞ²»»áµ¼ÖÂÓÎÏ·±ÀÀ£»òÒì³£Ê±Ê¹ÓÃ
+            // æ‰“å°è­¦å‘Šçº§åˆ«æ—¥å¿—ï¼Œå»ºè®®åœ¨å‘ç”Ÿå±€éƒ¨åŠŸèƒ½é€»è¾‘é”™è¯¯ï¼Œä½†å°šä¸ä¼šå¯¼è‡´æ¸¸æˆå´©æºƒæˆ–å¼‚å¸¸æ—¶ä½¿ç”¨
             Log.Warning(welcomeMessage);
 
-            // ´òÓ¡´íÎó¼¶±ğÈÕÖ¾£¬½¨ÒéÔÚ·¢Éú¹¦ÄÜÂß¼­´íÎó£¬µ«ÉĞ²»»áµ¼ÖÂÓÎÏ·±ÀÀ£»òÒì³£Ê±Ê¹ÓÃ
+            // æ‰“å°é”™è¯¯çº§åˆ«æ—¥å¿—ï¼Œå»ºè®®åœ¨å‘ç”ŸåŠŸèƒ½é€»è¾‘é”™è¯¯ï¼Œä½†å°šä¸ä¼šå¯¼è‡´æ¸¸æˆå´©æºƒæˆ–å¼‚å¸¸æ—¶ä½¿ç”¨
             Log.Error(welcomeMessage);
 
-            // ´òÓ¡ÑÏÖØ´íÎó¼¶±ğÈÕÖ¾£¬½¨ÒéÔÚ·¢ÉúÑÏÖØ´íÎó£¬¿ÉÄÜµ¼ÖÂÓÎÏ·±ÀÀ£»òÒì³£Ê±Ê¹ÓÃ£¬´ËÊ±Ó¦³¢ÊÔÖØÆô½ø³Ì»òÖØ½¨ÓÎÏ·¿ò¼Ü
+            // æ‰“å°ä¸¥é‡é”™è¯¯çº§åˆ«æ—¥å¿—ï¼Œå»ºè®®åœ¨å‘ç”Ÿä¸¥é‡é”™è¯¯ï¼Œå¯èƒ½å¯¼è‡´æ¸¸æˆå´©æºƒæˆ–å¼‚å¸¸æ—¶ä½¿ç”¨ï¼Œæ­¤æ—¶åº”å°è¯•é‡å¯è¿›ç¨‹æˆ–é‡å»ºæ¸¸æˆæ¡†æ¶
             Log.Fatal(welcomeMessage);
 
             m_BaseComponent = GameEntry.GetComponent<BaseComponent>();
@@ -43,7 +43,7 @@ namespace UnityGameFramework.Runtime
             
         }
 
-        // Ã¿´ÎÂÖÑ¯Ö´ĞĞ¡£
+        // æ¯æ¬¡è½®è¯¢æ‰§è¡Œã€‚
         protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
         {
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
@@ -54,13 +54,13 @@ namespace UnityGameFramework.Runtime
             }
         }
 
-        // Ã¿´ÎÀë¿ªÕâ¸öÁ÷³ÌÊ±Ö´ĞĞ¡£
+        // æ¯æ¬¡ç¦»å¼€è¿™ä¸ªæµç¨‹æ—¶æ‰§è¡Œã€‚
         protected override void OnLeave(ProcedureOwner procedureOwner, bool isShutdown)
         {
             base.OnLeave(procedureOwner, isShutdown);
         }
 
-        // ÓÎÏ·ÍË³öÊ±Ö´ĞĞ¡£
+        // æ¸¸æˆé€€å‡ºæ—¶æ‰§è¡Œã€‚
         protected override void OnDestroy(ProcedureOwner procedureOwner)
         {
             base.OnDestroy(procedureOwner);

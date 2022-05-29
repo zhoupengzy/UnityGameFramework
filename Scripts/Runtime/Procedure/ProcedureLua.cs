@@ -10,19 +10,19 @@ namespace UnityGameFramework.Runtime
 {
     public class ProcedureLua : ProcedureBase
     {
-        // private LuaComponent m_LuaComponent = null;
+        private LuaComponent m_LuaComponent = null;
 
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
             base.OnEnter(procedureOwner);
 
             //��Դ������ɿ�ʼ����LUA
-            // m_LuaComponent = GameEntry.GetComponent<LuaComponent>();
+            m_LuaComponent = GameEntry.GetComponent<LuaComponent>();
 
-            // if (m_LuaComponent == null) Debug.Log("lua component is null");
+            if (m_LuaComponent == null) Debug.Log("lua component is null");
 
             // //��ʼ��lua
-            // m_LuaComponent.Initialization();
+            m_LuaComponent.Initialization();
         }
 
         protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
